@@ -1,0 +1,16 @@
+/* Utils */
+@import "./utils/variables";
+
+/* Base */
+@import "./base/base";
+@import "./base/container";
+
+/* Layout */
+@import "./layout/header";
+@import "./layout/strategy";
+@import "./layout/mentor";
+@import "./layout/criteria";
+@import "./layout/reviews";
+
+/* Footer */
+@import "./layout/footer";

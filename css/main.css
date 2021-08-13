@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* Utils */
+:root {
+  --main-text: #494949;
+  --secondary-main-text: #ececec;
+  --ouwer-text: #757575;
+  --secondary-ouwer-text: #000;
+  --acent-color: #ff7300;
+  --secjndary-acent-color: #b92c4f;
+  --card-background-color: #ffffffad;
+  --title-text: #000000;
+  --line-color: #3856ff;
+}
+
+/* Base */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .hero-section .container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+/* Layout */
+/* Footer */
+/*# sourceMappingURL=main.css.map */
