@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+  .reviews {
+    text-align: center;
+  }
+  //   .reviews-list {
+
+  //   }
+  .reviews-item {
+    margin-top: 20px;
+  }
+  .reviews-text {
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  .reviews-name {
+    padding-top: 10px;
+    // margin-bottom: 10px;
+
+    color: var(--title-text);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  .reviews-duration {
+    //   padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}

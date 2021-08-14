@@ -30,6 +30,9 @@ header {
     font-size: 16px;
     line-height: 1.71;
   }
+  .acent {
+    background-color: var(--secondary-acent-color);
+  }
   .hero-counter-third-text {
     margin-bottom: 10px;
     color: var(--secondary-main-text);
@@ -37,9 +40,14 @@ header {
     font-size: 16px;
     line-height: 1.71;
   }
+  .hero-acent-word {
+    background-color: var(--acent-color);
+  }
   .hero-form {
     max-width: 100%;
+    margin-top: 5px;
     text-align: center;
+    border: 1px solid var(--secondary-main-text);
   }
   .hero-form-main-text {
     margin-top: 10px;
@@ -72,8 +80,8 @@ header {
     display: inline-block;
     border: 0px;
     padding: 10px 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 4px;
 
     color: var(--background-color);
