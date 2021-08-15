@@ -9,15 +9,33 @@ header {
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/images/index/Towers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .hero-section {
+        background-image: url(/images/index/Towers.jpg);
+      }
+    }
   }
-  .hero-counter {
-    background: black;
-  }
+
+  // .hero-counter {
+
+  // }
   .hero-counter-main {
     margin-bottom: 10px;
     align-items: center;
-    color: var(--ouwer-text);
-    font-weight: 700;
+    color: var(--secondary-main-text);
+    font-weight: 300;
     font-size: 26px;
     line-height: 1.62;
     letter-spacing: 0.02em;
@@ -48,6 +66,7 @@ header {
     margin-top: 5px;
     text-align: center;
     border: 1px solid var(--secondary-main-text);
+    background-color: var(--background-color);
   }
   .hero-form-main-text {
     margin-top: 10px;

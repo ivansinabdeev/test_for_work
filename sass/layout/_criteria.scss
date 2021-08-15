@@ -3,13 +3,18 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  //   .criteria-list {
-  //   }
+  .criteria-list {
+    padding-top: 10px;
+  }
   .criteria-item {
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
     width: 100%;
     background: var(--card-background-color);
+  }
+  .criteria-icon {
+    width: 32px;
+    height: 32px;
   }
   .criteria-item-title {
     padding-top: 20px;
