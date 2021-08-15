@@ -19,6 +19,56 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .mentor {
+    display: flex;
+    align-items: center;
+  }
+  .mentor-discription {
+    padding-left: 10px;
+  }
+  .mentor-img {
+    width: 360px;
+    height: 280px;
+  }
+  .mentor-list {
+    text-align: start;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  .mentor-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .mentor-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .mentor-button {
+    margin-left: 100px;
+  }
+  // .mentor-title {
+  //   margin-top: 10px;
+  //   margin-bottom: 10px;
+
+  //   color: var(--title-text);
+  //   font-weight: 300;
+  //   font-size: 20px;
+  //   line-height: 1.71;
+  //   text-transform: uppercase;
+
+  //   &::after {
+  //     position: relative;
+  //     content: "";
+  //     display: block;
+  //     bottom: -10px;
+  //     left: 0px;
+  //     height: 2px;
+  //     width: 65px;
+
+  //     background-color: var(--line-color);
+  //   }
+  // }
 }
 @media screen and (min-width: 1200px) {
 }
