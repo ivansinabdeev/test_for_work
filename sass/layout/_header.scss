@@ -236,4 +236,25 @@ header {
   }
 }
 @media screen and (min-width: 1200px) {
+  .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 665px;
+    padding-top: 170px;
+
+    .container {
+      margin: 10px;
+    }
+  }
+  .hero-form {
+    width: 330px;
+  }
+  .hero-form-main-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .hero-form-second-text {
+    margin-bottom: 30px;
+  }
 }

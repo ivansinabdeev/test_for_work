@@ -30,8 +30,7 @@
     padding-top: 10px;
   }
   .strategy-icon {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     fill: var(--ouwer-text);
     height: 32px;
     width: 32px;
@@ -72,8 +71,8 @@
       position: relative;
       content: "";
       display: block;
-      bottom: -10px;
-      left: 110px;
+      margin: 0 auto;
+      bottom: -20px;
       height: 2px;
       width: 65px;
 
@@ -95,12 +94,11 @@
     margin: 15px;
 
     @media screen and (min-width: 1200px) {
-      margin: 0px;
+      margin: 10px;
     }
   }
   .strategy-icon {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     fill: var(--ouwer-text);
     height: 32px;
     width: 32px;
@@ -122,4 +120,19 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .strategy {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .website-title {
+    font-size: 24px;
+  }
+  .strategy-list {
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .strategy-item {
+    width: 245px;
+  }
 }

@@ -2,13 +2,35 @@
   .mentor {
     text-align: center;
   }
-  //   .mentor-img {
-  //   }
+  .mentor-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: var(--title-text);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.71;
+    text-transform: uppercase;
+
+    &::after {
+      position: relative;
+      content: "";
+      display: block;
+      bottom: -10px;
+      margin: 0 auto;
+      bottom: -20px;
+      height: 2px;
+      width: 65px;
+
+      background-color: var(--line-color);
+    }
+  }
   .mentor-list {
     text-align: start;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   .mentor-icon {
+    fill: var(--line-color);
     width: 16px;
     height: 16px;
   }
@@ -36,10 +58,14 @@
     margin-bottom: 20px;
   }
   .mentor-icon {
+    fill: var(--line-color);
     width: 16px;
     height: 16px;
+    margin-right: 10px;
   }
   .mentor-item {
+    display: flex;
+    align-items: center;
     font-weight: 300;
     font-size: 14px;
     line-height: 1.71;
@@ -47,28 +73,51 @@
   .mentor-button {
     margin-left: 100px;
   }
-  // .mentor-title {
-  //   margin-top: 10px;
-  //   margin-bottom: 10px;
+  .mentor-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-  //   color: var(--title-text);
-  //   font-weight: 300;
-  //   font-size: 20px;
-  //   line-height: 1.71;
-  //   text-transform: uppercase;
+    color: var(--title-text);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.71;
+    text-transform: uppercase;
 
-  //   &::after {
-  //     position: relative;
-  //     content: "";
-  //     display: block;
-  //     bottom: -10px;
-  //     left: 0px;
-  //     height: 2px;
-  //     width: 65px;
+    &::after {
+      position: relative;
+      content: "";
+      display: block;
+      bottom: -10px;
+      left: 0px;
+      height: 2px;
+      width: 65px;
 
-  //     background-color: var(--line-color);
-  //   }
-  // }
+      background-color: var(--line-color);
+    }
+  }
 }
 @media screen and (min-width: 1200px) {
+  .mentor {
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  .mentor-discription {
+    padding-left: 20px;
+  }
+  .mentor-img {
+    width: 595px;
+    height: 400px;
+  }
+  .mentor-list {
+    padding-top: 30px;
+    margin-bottom: 100px;
+  }
+  .mentor-item {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  .mentor-button {
+    margin-left: 100px;
+  }
 }

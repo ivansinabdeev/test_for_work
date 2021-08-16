@@ -2,13 +2,17 @@
   .reviews {
     text-align: center;
   }
-  //   .reviews-list {
-
-  //   }
   .reviews-item {
     margin-top: 20px;
   }
   .reviews-icon {
+    position: relative;
+    content: "";
+    display: block;
+    bottom: -20px;
+    left: -0px;
+
+    fill: var(--background-reviews);
     width: 32px;
     height: 32px;
   }
@@ -59,10 +63,18 @@
     }
   }
   .reviews-icon {
+    position: relative;
+    content: "";
+    display: block;
+    bottom: -20px;
+    left: -10px;
+
+    fill: var(--background-reviews);
     width: 32px;
     height: 32px;
   }
   .reviews-text {
+    text-align: start;
     padding-bottom: 10px;
     font-weight: 200;
     font-style: italic;
@@ -85,4 +97,12 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .reviews {
+    padding-bottom: 80px;
+  }
+  .reviews-list {
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
 }

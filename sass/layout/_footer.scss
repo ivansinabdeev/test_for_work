@@ -1,14 +1,12 @@
 @media screen and (max-width: 767px) {
   .footer {
     text-align: center;
-    background-color: var(--background-footer-color);
     padding-top: 20px;
     padding-bottom: 20px;
 
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -70,16 +68,13 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .footer {
+  footer {
     text-align: center;
-    background-color: var(--background-footer-color);
     padding-top: 20px;
-    padding-bottom: 20px;
-
+    // padding-bottom: 20px;
     min-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -132,11 +127,16 @@
       color: var(--background-color);
       padding-left: 10px;
     }
+    &:last-child {
+      margin-right: 0px;
+    }
   }
   .rights {
+    width: 100%;
     background-color: var(--title-text);
   }
   .rights-text {
+    text-align: start;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 200;
@@ -146,4 +146,23 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .footer-title {
+    margin-bottom: 0px;
+  }
+  .footer-description {
+    padding-bottom: 60px;
+  }
+  .footer-input {
+    justify-content: space-between;
+  }
+
+  .input-white-text {
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
 }
