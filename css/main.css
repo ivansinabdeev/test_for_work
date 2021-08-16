@@ -137,6 +137,32 @@ header {
   .hero-acent-word {
     background-color: var(--acent-color);
   }
+  .timer {
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  .field {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-main-text);
+  }
+  .value {
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .label {
+    display: block;
+    padding-top: 5px;
+    font-size: 14px;
+    color: var(--background-color);
+  }
   .hero-form {
     max-width: 100%;
     margin-top: 5px;
@@ -245,6 +271,33 @@ header {
   .hero-acent-word {
     background-color: var(--acent-color);
   }
+  .timer,
+  .btn-box {
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  .field {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-main-text);
+  }
+  .value {
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .label {
+    display: block;
+    padding-top: 5px;
+    font-size: 14px;
+    color: var(--background-color);
+  }
   .hero-form {
     width: 320px;
     height: 340px;
@@ -339,8 +392,8 @@ header {
     position: relative;
     content: "";
     display: block;
+    margin: 0 auto;
     bottom: -10px;
-    left: 110px;
     height: 2px;
     width: 65px;
     background-color: var(--line-color);
